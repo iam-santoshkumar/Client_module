@@ -1,0 +1,125 @@
+.add-popup-container {
+  max-width: 600px;
+  margin: 20px auto; /* Center horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.preview-container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(119, 99, 99, 0.1);
+  background: #edf0f3;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 100%; /* Prevent overflow */
+}
+
+.preview-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #36a3be;
+  text-align: center;
+}
+
+.preview-content {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #a74f4f;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.confirm-button,
+.edit-button,
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.confirm-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-button {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+.add-button {
+  background-color: #2196f3;
+  color: white;
+  margin-top: 10px;
+}
+
+.confirm-button:hover {
+  background-color: #45a049;
+}
+
+.edit-button:hover {
+  background-color: #e57373;
+}
+
+.add-button:hover {
+  background-color: #1976d2;
+}
+
+.address-card,
+.protocol-card,
+.contact-card {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #943c3c;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(138, 94, 94, 0.1);
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+hr {
+  margin: 15px 0;
+  border: 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .preview-title {
+    font-size: 20px;
+    color: #e57373;
+  }
+
+  .confirm-button,
+  .edit-button,
+  .add-button {
+    font-size: 14px;
+  }
+
+  .address-card,
+  .protocol-card,
+  .contact-card {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+.paginationContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.paginationButton {
+  background-color: #205ea8;
+  color: white;
+  border: none;
+  padding: 0 12px; /* Adjusted padding to fit height */
+  height: 45px; /* Match height with .pageInput */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.paginationButton:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.paginationButton:not(:disabled):hover {
+  background-color: #28a745; /* Green color on hover */
+  transform: scale(1.02);
+}
+
+.pageInfo {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.pageInput {
+  width: 60px;
+  height: 45px; /* Set input height */
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

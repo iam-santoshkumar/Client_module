@@ -1,0 +1,76 @@
+2024-10-26 15:04:02,042 - ERROR - Invalid date format: --
+2024-10-26 15:04:07,180 - ERROR - Error processing fifth column link: Message: 
+Stacktrace:
+	GetHandleVerifier [0x006E3853+24035]
+	(No symbol) [0x0066BBE4]
+	(No symbol) [0x0054C2D3]
+	(No symbol) [0x0058DC86]
+	(No symbol) [0x0058DECB]
+	(No symbol) [0x005CB9D2]
+	(No symbol) [0x005AFED4]
+	(No symbol) [0x005C953F]
+	(No symbol) [0x005AFC26]
+	(No symbol) [0x0058218C]
+	(No symbol) [0x0058310D]
+	GetHandleVerifier [0x00989683+2800659]
+	GetHandleVerifier [0x009E423E+3172302]
+	GetHandleVerifier [0x009DCE52+3142626]
+	GetHandleVerifier [0x00786C00+692624]
+	(No symbol) [0x00674BFD]
+	(No symbol) [0x00671908]
+	(No symbol) [0x00671AA0]
+	(No symbol) [0x00663F50]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x77D3C0CB+107]
+	RtlClearBits [0x77D3C04F+191]
+
+2024-10-26 15:04:46,714 - ERROR - Error processing fifth column link: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x006E3853+24035]
+	(No symbol) [0x0066BBE4]
+	(No symbol) [0x0054C2D3]
+	(No symbol) [0x0052E00B]
+	(No symbol) [0x005B5F4F]
+	(No symbol) [0x005C8E99]
+	(No symbol) [0x005AFC26]
+	(No symbol) [0x0058218C]
+	(No symbol) [0x0058310D]
+	GetHandleVerifier [0x00989683+2800659]
+	GetHandleVerifier [0x009E423E+3172302]
+	GetHandleVerifier [0x009DCE52+3142626]
+	GetHandleVerifier [0x00786C00+692624]
+	(No symbol) [0x00674BFD]
+	(No symbol) [0x00671908]
+	(No symbol) [0x00671AA0]
+	(No symbol) [0x00663F50]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x77D3C0CB+107]
+	RtlClearBits [0x77D3C04F+191]
+
+2024-10-26 15:04:46,744 - ERROR - Error processing page: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.70)
+Stacktrace:
+	GetHandleVerifier [0x006E3853+24035]
+	(No symbol) [0x0066BBE4]
+	(No symbol) [0x0054C2D3]
+	(No symbol) [0x0052E00B]
+	(No symbol) [0x005B5F4F]
+	(No symbol) [0x005C8E99]
+	(No symbol) [0x005AFC26]
+	(No symbol) [0x0058218C]
+	(No symbol) [0x0058310D]
+	GetHandleVerifier [0x00989683+2800659]
+	GetHandleVerifier [0x009E423E+3172302]
+	GetHandleVerifier [0x009DCE52+3142626]
+	GetHandleVerifier [0x00786C00+692624]
+	(No symbol) [0x00674BFD]
+	(No symbol) [0x00671908]
+	(No symbol) [0x00671AA0]
+	(No symbol) [0x00663F50]
+	BaseThreadInitThunk [0x761A7BA9+25]
+	RtlInitializeExceptionChain [0x77D3C0CB+107]
+	RtlClearBits [0x77D3C04F+191]
+
